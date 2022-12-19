@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  height:100%;
+  
+}
+main{
+  width: 100vw;
+}
+p{
+  font-size:1.2vw
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 50px;
+  margin-top: 60px;
+}
+
+.phrase-container{
+    position: relative;
+    height: 250px;
+    margin-bottom: 50px;
+    width: 100vw;
+}
+.phrase-container p{
+    font-family: Hind Vadodara;
+    font-size:80px;
+    font-weight: 700;
+    position: absolute;
+    padding-left:40px;
+    padding-right: 20px;
+    width: 200px;
+}
+.phrase-container img{
+    position: absolute;
+    align-items: flex-end;
+    margin: -160px 0 0 600px;
+
+}
+@media(max-width:600px){
+  .phrase-container{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+     height:80px;
+  }
+ .phrase-container p{
+     font-size: 30px;
+ }
+ .phrase-container img{
+     height:200px;
+     margin: -100px 0 0 220px;
+ }
+ article p{
+  font-size: 20px;
+ }
+
+}
+@media(min-width:601px)and(max-width:768px){
+  .phrase-container{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+     height:80px;
+ }
+ .phrase-container p{
+     font-size: 20px;
+ }
+ .phrase-container img{
+     height:200px;
+     margin: -100px 0 0 220px;
+ }
+ 
+}
+ 
+@media(min-width:769px)and(max-width:1200px){
+  .phrase-container{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+     height:80px;
+ }
+ .phrase-container p{
+     font-size: 30px;
+ }
+ .phrase-container img{
+     height:200px;
+     margin: -100px 0 0 220px;
+ }
+ 
+}
+
+article{
+    
+    margin:100px 80px 10px 40px;
+
+}
+.description-container{
+  margin-top: 30px;
+  
+
+}
+.taxonomy-container{
+ margin-top: 30px;
+ 
+}
+figcaption{
+  font-size:1.1vw;
+}
+/*
+@media(max-width:600px){
+  .description-container{
+    margin-top: 30px;
+
+  }
+  .taxonomy-container{
+    margin-top: 1000px;
+    
+  }
+
+}
+@media(min-width:601px)and(max-width:768px){
+  .description-container{
+    margin-top: 30px;
+
+  }
+  .taxonomy-container{
+  margin-top: 1100px;
+  
+  }
+}
+@media(min-width:769px)and(max-width:992px){
+  .description-container{
+    margin-top: 30px;
+
+  }
+  .taxonomy-container{
+  margin-top: 850px;
+  
+  }
+}
+@media(min-width:993px)and(max-width:1200px){
+  .description-container{
+    margin-top: 30px;
+
+  }
+  .taxonomy-container{
+  margin-top: 90px;
+  
+  }
+}
+@media(max-width:1201px){
+  .description-container{
+    margin-top: 30px;
+
+  }
+  .taxonomy-container{
+  margin-top: 60px;
+  
+  }
+}*/

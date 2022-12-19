@@ -1,0 +1,58 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+
+.watermelon-vibes{
+    font-family: Hind Vadodara;
+    font-size:80px;
+    font-weight: 700;
+}
+.image-container{
+    margin-top: -60px;
+    z-index: -10;
+    margin-left: 600px;
+}
+
+
+@media(max-width:550px){
+    .watermelon-vibes{
+        font-size: 40px;
+        
+    }
+    .image-container{
+        margin-left: 280px;
+        height:70%;
+    }
+}
+@media(min-width:551px) and (max-width:750px) {
+    .watermelon-vibes{
+        font-size: 40px;
+        
+    }
+    .image-container{
+        margin-left: 270px;
+        
+    }
+    .image-container img{
+        height:100%;
+    }
+}
+@media(min-width:751px) and (max-width:999px){
+    .watermelon-vibes{
+    font-size: 60px;
+    }
+    .image-container{
+        margin-left: 400px;
+    }
+}
+  
+@media(min-width: 1000px){
+ .watermelon-vibes{
+    font-size:80px
+ }
+ .image-container{
+    margin-left:600px
+ }
+}
+

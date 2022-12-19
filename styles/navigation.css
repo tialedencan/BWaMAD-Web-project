@@ -1,0 +1,13 @@
+nav{
+    z-index: 200;
+    width:100vw;
+}
+.footer {
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 0;
+    padding-top: 10px;
+    width: 100vw;
+  }
