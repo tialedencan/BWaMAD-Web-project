@@ -5,6 +5,11 @@ main{
     max-width: 100vw; 
     
 }
+h1{
+    font-family: Bungee Inline ;
+    color:rgb(234,43,87);
+}
+
 @media(min-width:1301px){
     p,caption{
         font-size: 1.2vw;

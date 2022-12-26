@@ -6,6 +6,10 @@
     display: flex;
     justify-content: space-between;
 }
+h1{
+    font-family: Bungee Inline ;
+    color:rgb(234,43,87);
+}
 @media(min-width:1301px){
     p,.point{
         font-size: 1.2vw;
