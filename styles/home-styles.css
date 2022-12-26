@@ -7,99 +7,40 @@ body{
   
 }
 main{
-  width: 100vw;
-}
-p{
-  font-size:1.2vw
+  max-width: 100vw;
 }
 
+.phrase-container{
+  position: relative;
+  height: 250px;
+  margin-bottom: 50px;
+  width: 100vw;
+}
 footer {
   clear: both;
   position: relative;
   height: 50px;
   margin-top: 60px;
 }
-
-.phrase-container{
-    position: relative;
-    height: 250px;
-    margin-bottom: 50px;
-    width: 100vw;
-}
+/*
 .phrase-container p{
-    font-family: Hind Vadodara;
-    font-size:80px;
-    font-weight: 700;
-    position: absolute;
-    padding-left:40px;
-    padding-right: 20px;
-    width: 200px;
+  font-family: Hind Vadodara;
+  font-size:80px;
+  font-weight: 700;
+  position: absolute;
+  padding-left:40px;
+  padding-right: 20px;
+  max-width: 200px;
 }
-.phrase-container img{
-    position: absolute;
-    align-items: flex-end;
-    margin: -160px 0 0 600px;
-
-}
-@media(max-width:600px){
-  .phrase-container{
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 10px;
-     height:80px;
-  }
- .phrase-container p{
-     font-size: 30px;
- }
- .phrase-container img{
-     height:200px;
-     margin: -100px 0 0 220px;
- }
- article p{
-  font-size: 20px;
- }
-
-}
-@media(min-width:601px)and(max-width:768px){
-  .phrase-container{
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 10px;
-     height:80px;
- }
- .phrase-container p{
-     font-size: 20px;
- }
- .phrase-container img{
-     height:200px;
-     margin: -100px 0 0 220px;
- }
- 
-}
- 
-@media(min-width:769px)and(max-width:1200px){
-  .phrase-container{
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 10px;
-     height:80px;
- }
- .phrase-container p{
-     font-size: 30px;
- }
- .phrase-container img{
-     height:200px;
-     margin: -100px 0 0 220px;
- }
- 
-}
-
+*/
 article{
     
-    margin:100px 80px 10px 40px;
+  margin:100px 80px 10px 40px;
 
 }
 .description-container{
   margin-top: 30px;
   
-
 }
 .taxonomy-container{
  margin-top: 30px;
@@ -108,6 +49,125 @@ article{
 figcaption{
   font-size:1.1vw;
 }
+
+@media (min-width:1201px){
+
+  .phrase-container{
+      position: relative;
+      height: 250px;
+      margin-bottom: 0;
+      max-width: 100vw;
+  } 
+  .phrase-container p{
+      font-family: Hind Vadodara;
+      font-size:5vw;
+      font-weight: 700;
+      position: absolute;
+      padding-left:40px;
+      padding-right: 20px;
+      max-width: 200px;
+  }
+  .phrase-container img{
+     height:380px;
+     margin: -120px 0 0 600px;
+
+  }
+  article{
+    margin-top:40px;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1200px){
+  
+  .phrase-container{
+    max-width: 100vw;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    height:120px;
+ }
+ .phrase-container p{
+     font-family: Hind Vadodara;
+     font-size:5vw;
+     font-weight: 700;
+     position: absolute;
+     padding-left:40px;
+     padding-right: 20px;
+     max-width: 200px;
+ }
+ .phrase-container img{
+     height:300px;
+     margin: -100px 0 0 420px;
+ }
+ 
+}
+
+@media (min-width:601px) and (max-width:768px){
+
+  .phrase-container{
+     grid-template-columns: 1fr 1fr;
+     height:80px;
+     max-width: 100vw;
+   }/* 
+    position: relative;*/
+   .image{
+    max-width:50vw;
+   }
+  .phrase-container p{
+     font-family: Hind Vadodara;
+     font-size:6vw;
+     font-weight: 700;
+     position: absolute;
+     padding-left:40px;
+     padding-right: 20px;
+     max-width: 200px;
+  }
+  .phrase-container img{
+      height:250px;
+      margin: -100px 0 0 320px;
+  }
+  article p{
+   font-size: 2.5vw;
+  }
+ 
+   article figcaption{
+   font-size: 2vw;
+  }
+ 
+ }
+@media (max-width:600px){
+
+ .phrase-container{
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    height:80px;
+    
+  }
+ .phrase-container p{
+    font-family: Hind Vadodara;
+    font-size:40px;
+    font-weight: 700;
+    position: absolute;
+    padding-left:40px;
+    padding-right: 20px;
+    max-width: 200px;
+ }
+ .phrase-container img{
+     height:200px;
+     margin: -100px 0 0 300px;
+ }
+ article p{
+  font-size: 3vw;
+ }
+
+  article figcaption{
+  font-size: 2vw;
+ }
+
+}
+ 
+
+
 /*
 @media(max-width:600px){
   .description-container{
