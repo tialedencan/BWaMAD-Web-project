@@ -2,20 +2,22 @@
     margin:0;
     padding:0;
 }
-
-p{
-    font-size: 1.2vw;
+main{
+    max-width:100vw;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+   
+    grid-template-areas:
+        ".literature-links .image-container"; 
 }
 
-@media(max-width:600px){
-    p{
-        font-size: 3vw;
-    }
+h1{
+    font-family: Bungee Inline ;
+    color:rgb(234,43,87);
 }
-
-
-footer{
-    position: absolute;
-    float:none;
-    bottom: 0;
+.image-container{
+    max-width:100vw;
 }
