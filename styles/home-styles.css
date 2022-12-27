@@ -32,17 +32,42 @@ footer {
   height: 50px;
   margin-top: 60px;
 }
-/*
-.phrase-container p{
-  font-family: Hind Vadodara;
-  font-size:80px;
-  font-weight: 700;
-  position: absolute;
-  padding-left:40px;
-  padding-right: 20px;
-  max-width: 200px;
+
+.image-btn{
+  height: 30px;
 }
-*/
+#back-to-top{
+  position:fixed;
+  bottom: 3em;
+  right: 3em;
+  background-color: rgba(255,255,255,.9);
+  color:#313943;
+  border:none;
+  border-radius: 5px;
+  padding:1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 0 2em 0 rgba(0,0,0,.25);
+  transition:all .3s ease-in-out;
+  display:inline-block;
+  opacity: 1;
+  text-decoration: none;
+  font-size: .75em;
+  z-index: 20;
+}
+
+#back-to-top:hover{
+  background-color: #fff;
+  padding: 1em 3em;
+
+}
+
+#back-to-top:visible{
+  opacity:1;
+}
+
+
 article{
     
   margin:100px 80px 10px 40px;
@@ -60,8 +85,12 @@ figcaption{
   font-size:1.1vw;
 }
 
-@media (min-width:1201px){
 
+@media (min-width:1201px){
+  
+  .image-in-front{
+    z-index:30;
+  }
   .phrase-container{
       position: relative;
       height: 250px;
@@ -96,6 +125,9 @@ figcaption{
 
 @media (min-width:769px) and (max-width:1200px){
   
+  .image-in-front{
+    z-index:30;
+  }
   .phrase-container{
     max-width: 100vw;
     position: relative;
@@ -126,6 +158,9 @@ figcaption{
 
 @media (min-width:601px) and (max-width:768px){
 
+  .image-in-front{
+    z-index:30;
+  }
   .phrase-container{
      grid-template-columns: 1fr 1fr;
      height:80px;
@@ -162,6 +197,9 @@ figcaption{
  }
 @media (max-width:600px){
 
+  .image-in-front{
+    z-index:30;
+  }
  .phrase-container{
     grid-template-columns: 1fr 1fr;
     margin-bottom: 10px;
