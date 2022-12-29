@@ -9,18 +9,21 @@ h1{
     font-family: Bungee Inline ;
     color:rgb(234,43,87);
 }
+.smoothie-container {
+    padding-top: 60px;
+}
 
 @media(min-width:1301px){
     p,caption{
         font-size: 1.2vw;
     }
-  
+    
 }
 @media(min-width:921px)and(max-width:1300px){
     p,caption{
         font-size: 1.8vw;
     }
-   
+    
 }
 
 @media(min-width:769px)and (max-width:920px){
@@ -33,10 +36,26 @@ h1{
     p,caption{
         font-size: 2.8vw;
     }
+}
+@media(min-width:384px) and (max-width:600px){
+    p,caption, thead, tbody{
+        font-size: 3vw;
+    }
    
 }
-@media(max-width:600px){
-    p,caption{
-        font-size: 3vw;
+@media (max-width:383px){
+    p,caption, thead, tbody{
+        font-size: 3.2vw;
+    }
+    article{
+        margin:0;
+    }
+    .smoothie-container {
+        padding-top: 0;
+    }
+    .smoothie-container img{
+        padding:0;
+        margin-left: 80px;
+        margin-bottom: 10px;
     }
 }
