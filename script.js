@@ -3,7 +3,7 @@
 let mybutton = document.getElementById("back-to-top");
 let offset=100;
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 100px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
